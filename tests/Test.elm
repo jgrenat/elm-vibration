@@ -1,4 +1,4 @@
-module Main exposing (..)
+module Test exposing (..)
 
 import Task
 import Time exposing (millisecond)
@@ -11,7 +11,7 @@ import Vibration
 
 main : Program Never
 main = Html.App.program
-    { init = (0, Cmd.none)
+    { init = (0) ! [Cmd.none]
     , view = view
     , update = update
     , subscriptions = always Sub.none
