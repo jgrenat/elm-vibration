@@ -4,7 +4,7 @@ effect module Vibration where { command = MyCmd } exposing
     , cancel
     )
 
-{-| Vibrate the user's device with HTML5 vibration, if possible.
+{-| Vibrate the device.
 
 # Vibration
 @docs vibrate, vibrateInPattern, cancel
