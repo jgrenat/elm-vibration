@@ -7,7 +7,7 @@ var _JohnBugner$elm_vibration$Native_Vibration = function() {
 		return _elm_lang$core$Native_Scheduler.nativeBinding(function(callback) {
 			window.navigator.vibrate(_elm_lang$core$Native_List.toArray(pattern));
 
-			return callback(_elm_lang$core$Native_Utils.Tuple0);
+			callback(_elm_lang$core$Native_Utils.Tuple0);
 		});
 	}
 
