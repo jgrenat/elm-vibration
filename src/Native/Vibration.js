@@ -1,6 +1,6 @@
 //import Native.List //
-//import Native.Utils //
 //import Native.Scheduler //
+//import Native.Utils //
 
 var _JohnBugner$elm_vibration$Native_Vibration = function() {
 	function vibrateInPattern(pattern) {
